@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background-color: red;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
+}
+
+.app {
+  max-width: 980px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+  margin-top: 2rem;
+  font-size: 25px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30vh;
+}
+
+.content-title {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.content-desc {
+  font-size: 20px;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form .form-inp {
+  max-width: 600px;
+  min-width: 300px;
+  height: 40px;
+  margin: 0px 9px 2rem;
+  text-indent: 13px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+
+.form-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.form-btn:hover {
+  background-color: #dddddd;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+
+  color: #ffffff;
+  text-decoration: none;
+  width: 140px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    margin-top: 15vh;
+  }
+  .content-title {
+    font-size: 40px;
+  }
+}
